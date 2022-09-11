@@ -13,6 +13,7 @@ public class WordCount extends JFrame implements ActionListener{
         lb2.setBounds(50, 80, 100, 20);
         ta = new JTextArea();
         ta.setBounds(50, 110, 300, 200);
+        ta.setBounds(false);
         b = new JButton("click");
         b.setBounds(50, 320, 80, 30);
         b.addActionListener(this);
